@@ -1,0 +1,816 @@
+{
+  "Zepbound": [
+    "E66.9",
+    "E66.01",
+    "E66.3",
+    "G47.33"
+  ],
+  "Slynd 4mg Tablet": [
+    "Z30.41",
+    "Z30.011",
+    "Z79.3"
+  ],
+  "UBRELVY 100 MG ORAL TABLET": [
+    "G43.009",
+    "G43.019",
+    "G43.909"
+  ],
+  "VOQUEZNA 20MG TAB": [
+    "K21.0"
+  ],
+  "QULIPTA 60 MG ORAL TABLET": [
+    "G43.009",
+    "G43.019",
+    "G43.909"
+  ],
+  "XIFAXAN 550MG TAB": [
+    "K58.0",
+    "K72.91"
+  ],
+  "NURTEC ODT 75MG TAB": [
+    "G43.009",
+    "G43.019",
+    "G43.909"
+  ],
+  "OZEMPIC (0.25 OR 0.5 MG/DOSE) 2 MG/3ML SUBCUTANEOUS SOLUTION PEN-INJECTOR \nor\nOZEMPIC": [
+    "E11.9",
+    "E11.65",
+    "E11.22",
+    "E11.42"
+  ],
+  "INTRAROSA 6.5MG INSERT": [
+    "N94.10",
+    "N94.11",
+    "N94.12",
+    "N94.19"
+  ],
+  "MOUNJARO": [
+    "E11.9",
+    "E11.65",
+    "E11.22",
+    "E11.42"
+  ],
+  "JUBLIA 10 % SOLUTION": [
+    "B35.1"
+  ],
+  "NEXTSTELLIS 3-14.2 MG ORAL TABLET": [
+    "Z30.011",
+    "Z30.9"
+  ],
+  "VEOZAH 45 MG ORAL TABLET": [
+    "N95.1"
+  ],
+  "MIEBO 1.338 GM/ML EYE SOLUTION": [
+    "H04.121",
+    "H04.122",
+    "H04.123"
+  ],
+  "VOQUEZNA 10MG TAB": [
+    "K21.0",
+    "K21.9"
+  ],
+  "IBSRELA 50MG TABLET": [
+    "K58.1"
+  ],
+  "XIIDRA 5 % OPHTHALMIC SOLUTION": [
+    "H04.121",
+    "H04.122",
+    "H04.123"
+  ],
+  "NURTEC 75 MG TABLET DISINTEGRATING": [
+    "G43.009",
+    "G43.019",
+    "G43.909"
+  ],
+  "AIRSUPRA 90-80MCG/ACTUATION AER": [
+    "J45.909",
+    "J45.40",
+    "J45.50"
+  ],
+  "VOQUEZNA 20 MG ORAL TABLET": [
+    "K21.0",
+    "K21.9"
+  ],
+  "AUVELITY 45-105 MG ORAL TABLET EXTENDED RELEASE": [
+    "F32.9"
+  ],
+  "DEXCOM G7 SENSOR": [
+    "E11.9",
+    "E10.9"
+  ],
+  "Diclofenac Epolamine 1.3% Film": [
+    "M54.5",
+    "S39.012A",
+    "S39.012D",
+    "S39.012S",
+    "S86.011A",
+    "S86.011D",
+    "S86.011S",
+    "S93.401A",
+    "S93.401D",
+    "S93.401S",
+    "S93.402A",
+    "S93.402D",
+    "S93.402S",
+    "S80.001A",
+    "S80.001D",
+    "S80.001S",
+    "S80.002A",
+    "S80.002D",
+    "S80.002S",
+    "M25.561",
+    "M25.562",
+    "M79.1",
+    "M79.2",
+    "M79.7"
+  ],
+  "MYFEMBREE 40-1-0.5 MG ORAL TABLET": [
+    "N80.0",
+    "N80.1",
+    "N80.2",
+    "N80.3",
+    "N80.4",
+    "N80.5",
+    "N80.6",
+    "N80.8",
+    "N80.9",
+    "N92.0",
+    "N92.1",
+    "N92.4",
+    "N92.5",
+    "N92.6",
+    "N93.0",
+    "N93.8",
+    "N93.9"
+  ],
+  "LIDOCAINE 5 % EXTERNAL PATCH": [
+    "G53.0",
+    "B02.9"
+  ],
+  "PHEXXI 1.8-1-0.4% GEL": [
+    "Z30.430",
+    "Z30.431",
+    "Z30.49",
+    "Z30.9"
+  ],
+  "METFORMIN HCL 625 MG ORAL TABLET": [
+    "E11.9",
+    "E11.65",
+    "E11.69",
+    "E11.8"
+  ],
+  "RELISTOR 150MG TAB": [
+    "K59.00",
+    "Z79.891"
+  ],
+  "REPATHA SURECLICK 140MG/ML INJ": [
+    "I25.10",
+    "E78.00",
+    "E78.01",
+    "E78.02",
+    "E78.5"
+  ],
+  "VRAYLAR 1.5 MG CAPSULE": [
+    "F20.9",
+    "F31.9",
+    "F32.9",
+    "F33.9",
+    "F41.9"
+  ],
+  "DICLOFENAC SODIUM 2 % EXTERNAL SOLUTION": [
+    "M17.11",
+    "M17.12",
+    "M17.9"
+  ],
+  "AJOVY 225 MG/1.5ML SUBCUTANEOUS SOLUTION AUTO-INJECTOR": [
+    "G43.909",
+    "G43.919",
+    "G43.929",
+    "G43.939"
+  ],
+  "OPZELURA 1.5 % EXTERNAL CREAM": [
+    "L80.9",
+    "L20.9"
+  ],
+  "LO LOESTRIN FE 1 MG-10 MCG /10 MCG TABLET": [
+    "Z30.41",
+    "Z30.011",
+    "Z30.09"
+  ],
+  "ZTLIDO 1.8% FILM": [
+    "G53.0"
+  ],
+  "ZAVZPRET 10 MG/ACT NASAL SOLUTION": [
+    "G43.909",
+    "G43.919",
+    "G43.929",
+    "G43.939"
+  ],
+  "BOTOX 200 UNIT INJECTION SOLUTION RECONSTITUTED": [
+    "G43.709"
+  ],
+  "QELBREE 200 MG ORAL CAPSULE EXTENDED RELEASE 24 HOUR": [
+    "F90.0",
+    "F90.1",
+    "F90.2"
+  ],
+  "EMGALITY 120 MG/ML SUBCUTANEOUS SOLUTION AUTO-INJECTOR": [
+    "G43.909",
+    "G43.919",
+    "G43.929",
+    "G43.939"
+  ],
+  "FREESTYLE LIBRE 3 SENSOR": [
+    "E10.9",
+    "E11.9",
+    "Z79.4",
+    "Z79.84"
+  ],
+  "BREZTRI 160-9-4.8MCG/AC INH": [
+    "J44.9"
+  ],
+  "GVOKE HYPOPEN 2-PACK 1 MG/0.2ML SUBCUTANEOUS SOLUTION AUTO-INJECTOR": [
+    "E16.2"
+  ],
+  "CAPLYTA 42 MG ORAL CAPSULE": [
+    "F20.9",
+    "F31.9"
+  ],
+  "DUPIXENT 300MG/2ML INJ": [
+    "L20.9",
+    "J45.40",
+    "J33.9"
+  ],
+  "FARXIGA 10MG TAB": [
+    "E11.9",
+    "N18.9",
+    "I50.9"
+  ],
+  "OTEZLA 30MG TAB": [
+    "L40.50",
+    "L40.0"
+  ],
+  "AIMOVIG 140 MG/ML SUBCUTANEOUS SOLUTION AUTO-INJECTOR": [
+    "G43.909"
+  ],
+  "TACROLIMUS 0.1 % EXTERNAL OINTMENT": [
+    "L20.9"
+  ],
+  "BUDESONIDE-FORMOTEROL FUMARATE 160-4.5MCG/ACT AEROSOL": [
+    "J45.909",
+    "J44.9"
+  ],
+  "JARDIANCE 25MG TAB": [
+    "E11.9",
+    "I25.10",
+    "N18.9"
+  ],
+  "VEMLIDY 25MG TAB": [
+    "B18.1",
+    "B18.9"
+  ],
+  "XHANCE 93MCG/ACT EXHU": [
+    "J31.0",
+    "J31.1",
+    "J33.9"
+  ],
+  "ZORYVE 0.3 % EXTERNAL CREAM": [
+    "L40.0"
+  ],
+  "CEQUA 0.09 % OPHTHALMIC SOLUTION": [
+    "H04.121",
+    "H04.122",
+    "H04.123"
+  ],
+  "ICOSAPENT ETHYL 1 GM ORAL CAPSULE": [
+    "E78.1",
+    "I25.10",
+    "I20.9"
+  ],
+  "TRETINOIN 0.025 % EXTERNAL CREAM": [
+    "L70.0",
+    "L70.9"
+  ],
+  "TWIRLA 120-30 MCG/24HR TRANSDERMAL PATCH WEEKLY": [
+    "Z30.41",
+    "Z30.09",
+    "Z79.3"
+  ],
+  "BIJUVA 0.5-100 MG ORAL CAPSULE": [
+    "N95.1"
+  ],
+  "RYBELSUS 7 MG ORAL TABLET": [
+    "E11.9",
+    "E11.65",
+    "E11.69",
+    "E11.8"
+  ],
+  "GEMTESA 75 MG ORAL TABLET": [
+    "N32.81",
+    "R39.15",
+    "R39.16"
+  ],
+  "KERENDIA 10MG TAB": [
+    "E11.22",
+    "N18.3",
+    "N18.4"
+  ],
+  "MIEBO 1.338 GM/ML OPHTHALMIC SOLUTION": [
+    "H04.121",
+    "H04.122",
+    "H04.123"
+  ],
+  "QUVIVIQ 50 MG ORAL TABLET": [
+    "G47.00",
+    "G47.01",
+    "G47.09"
+  ],
+  "ACCRUFER 30 MG ORAL CAPSULE": [
+    "D50.9",
+    "D50.0",
+    "D50.8"
+  ],
+  "BASAGLAR 100U/ML INJ": [
+    "E10.9",
+    "E11.9",
+    "E13.9"
+  ],
+  "BASAGLAR KWIKPEN 100 UNIT/ML SUBCUTANEOUS SOLUTION PEN-INJECTOR": [
+    "E10.9",
+    "E11.9",
+    "E13.9"
+  ],
+  "JANUMET 50-1000MG TAB": [
+    "E11.9",
+    "E11.65",
+    "E11.69",
+    "E11.8"
+  ],
+  "JANUVIA 100MG TAB": [
+    "E11.9",
+    "E11.65",
+    "E11.69",
+    "E11.8"
+  ],
+  "LACTULOSE 10 GM ORAL PACKET": [
+    "K59.00"
+  ],
+  "TYRVAYA 0.03 MG/ACT NASAL SOLUTION": [
+    "H04.121",
+    "H04.122",
+    "H04.123"
+  ],
+  "ADZENYS XR-ODT 15.7 MG ORAL TABLET EXTENDED RELEASE DISINTEGRATING": [
+    "F90.0",
+    "F90.1",
+    "F90.9"
+  ],
+  "BONJESTA 20-20 MG ORAL TABLET EXTENDED RELEASE\n": [
+    "O21.0"
+  ],
+  "COBENFY 100-20 MG ORAL CAPSULE": [
+    "M05.79",
+    "M25.50",
+    "R52"
+  ],
+  "DOXYLAMINE-PYRIDOXINE 10-10 MG ORAL TABLET DELAYED RELEASE": [
+    "O21.0"
+  ],
+  "TRULICITY 1.5MG/0.5ML INJ": [
+    "E11.9",
+    "E11.65"
+  ],
+  "VYVANSE 40MG CAPSULE": [
+    "F90.0",
+    "F90.1",
+    "F90.9"
+  ],
+  "WELLBUTRIN XL 150 MG ORAL TABLET EXTENDED RELEASE 24 HOUR": [
+    "F33.1",
+    "F33.8",
+    "F33.9"
+  ],
+  "XIFAXAN 550MG TABS": [
+    "K76.82",
+    "K58.0"
+  ],
+  "DAPAGLIFLOZIN PROPANEDIOL 10 MG ORAL TABLET": [
+    "E11.65",
+    "I50.9",
+    "N18.9"
+  ],
+  "NEXLIZET 180-10MG TAB": [
+    "E78.0",
+    "E78.2",
+    "I25.10",
+    "I25.110",
+    "I25.119",
+    "I25.9",
+    "E78.4",
+    "E78.5"
+  ],
+  "ORILISSA 150MG TABLET": [
+    "N80.0"
+  ],
+  "VEVYE 0.1 % OPHTHALMIC SOLUTION": [
+    "H04.123",
+    "H04.124",
+    "H04.125"
+  ],
+  "AFREZZA 4 & 8 & 12UNIT POWDER": [
+    "E11.9",
+    "E10.9"
+  ],
+  "EUCRISA 2% OINT": [
+    "L20.9"
+  ],
+  "EUFLEXXA 10MG/ML SOSY": [
+    "M17.10",
+    "M17.11",
+    "M17.12",
+    "M17.9"
+  ],
+  "TALICIA 250-12.5-10 MG ORAL CAPSULE DELAYED RELEASE": [
+    "A04.81"
+  ],
+  "VTAMA 1% CRM": [
+    "L20.9",
+    "L40.9"
+  ],
+  "AKLIEF 0.005% CRM": [
+    "L70.0",
+    "L70.9"
+  ],
+  "BYDUREON BCISE 2 MG/0.85ML": [
+    "E11.9"
+  ],
+  "KERENDIA 10 MG ORAL TABLET": [
+    "E11.22"
+  ],
+  "SKYRIZI PEN 150 MG/ML SUBCUTANEOUS SOLUTION AUTO-INJECTOR": [
+    "L40.0",
+    "M07.9",
+    "K50.00",
+    "K51.0"
+  ],
+  "ARAZLO 0.045% LOT": [
+    "L70.0",
+    "L70.9"
+  ],
+  "CLINDAMYCIN PHOS-BENZOYL PEROX 1.2-3.75 % EXTERNAL GEL": [
+    "L70.0",
+    "L70.9"
+  ],
+  "FEMRING 0.05MG/24HR RING": [
+    "N95.1"
+  ],
+  "JORNAY PM 20 MG ORAL CAPSULE EXTENDED RELEASE 24 HOUR": [
+    "F90.0",
+    "F90.1",
+    "F90.2"
+  ],
+  "LYBALVI 5-10 MG ORAL TABLET": [
+    "F20.9",
+    "F31.9"
+  ],
+  "PROLIA 60MG INJ": [
+    "M81.0",
+    "M80.0",
+    "M81.8",
+    "M80.8",
+    "M81.6",
+    "M80.88"
+  ],
+  "VEVYE 0.1% SOL": [
+    "H04.123",
+    "H04.124",
+    "H04.125"
+  ],
+  "CONTRAVE 8-90MG TABLET": [
+    "E66.9",
+    "E66.01",
+    "E66.3"
+  ],
+  "Diclofenac Potassium 25 MG Oral Tablet": [
+    "M25.50",
+    "M15.9",
+    "M79.1",
+    "M79.2",
+    "M54.5",
+    "M54.2",
+    "R52"
+  ],
+  "ELYXYB 120 MG/4.8ML ORAL SOLUTION": [
+    "G43.009",
+    "G43.019",
+    "G43.109",
+    "G43.119",
+    "G43.909",
+    "G43.919"
+  ],
+  "EYSUVIS 0.25 % OPHTHALMIC SUSPENSION": [
+    "H04.123",
+    "H04.124",
+    "H04.125"
+  ],
+  "OPZELURA 1.5% CRM": [
+    "L20.9",
+    "L80"
+  ],
+  "RINVOQ 15 MG ORAL TABLET EXTENDED RELEASE 24 HOUR": [
+    "M05.79",
+    "M45.9",
+    "L20.9"
+  ],
+  "STEGLATRO 15MG TAB": [
+    "E11.9"
+  ],
+  "AZELAIC ACID 15% GEL": [
+    "L70.0",
+    "L71.0"
+  ],
+  "IMVEXXY STARTER PACK 4 MCG VAGINAL INSERT": [
+    "N94.1",
+    "N95.2",
+    "N95.1"
+  ],
+  "OMEGA-3-ACID ETHYL ESTERS 1 GM ORAL CAPSULE": [
+    "E78.1",
+    "E78.2"
+  ],
+  "VASCEPA 1GM CAP": [
+    "E78.1",
+    "E78.2"
+  ],
+  "ZTLIDO 1.8% PATCH": [
+    "G53.0"
+  ],
+  "PROCRIT 10000U/ML INJ": [
+    "D63.0",
+    "D64.81",
+    "D61.1",
+    "B20"
+  ],
+  "GEMTESA 75MG TAB": [
+    "N32.81",
+    "R39.15",
+    "R39.16"
+  ],
+  "INVEGA SUSTENNA 234MG INJ": [
+    "F20.0",
+    "F20.1",
+    "F20.2",
+    "F20.3",
+    "F20.5",
+    "F20.8",
+    "F20.9"
+  ],
+  "RHOFADE 1% CRM": [
+    "L71.0",
+    "L71.9"
+  ],
+  "XDEMVY 0.25 % OPHTHALMIC SOLUTION": [
+    "B88.0",
+    "H01.00"
+  ],
+  "AZELAIC ACID 15 % EXTERNAL GEL": [
+    "L71.0",
+    "L71.9"
+  ],
+  "IBUPROFEN-FAMOTIDINE 800-26.6 MG ORAL TABLET": [
+    "M15.0",
+    "M15.9",
+    "M17.0",
+    "M17.9",
+    "M19.90",
+    "M06.9",
+    "M06.00",
+    "M06.9"
+  ],
+  "Lidocaine 5% External Patch": [
+    "G53.0"
+  ],
+  "LINZESS 72MCG CAP": [
+    "K59.00",
+    "K59.09",
+    "K58.9"
+  ],
+  "LIRAGLUTIDE 18 MG/3ML SUBCUTANEOUS SOLUTION PEN-INJECTOR": [
+    "E11.9",
+    "E11.65",
+    "E11.69",
+    "E11.8"
+  ],
+  "NUEDEXTA 20-10 MG ORAL CAPSULE": [
+    "F48.2"
+  ],
+  "OSPHENA 60 MG ORAL TABLET": [
+    "N95.2",
+    "N94.1",
+    "N95.1"
+  ],
+  "QSYMIA 15-92MG EXT-RELEASE CAPSULE": [
+    "E66.9",
+    "E66.01",
+    "E66.09"
+  ],
+  "TRETINOIN 0.025% CRM": [
+    "L70.0",
+    "L71.0",
+    "L71.9"
+  ],
+  "ABILIFY MAINTENA 400MG SUSP ER": [
+    "F20.9",
+    "F31.13",
+    "F31.14",
+    "F31.9"
+  ],
+  "INSULIN GLARGINE-YFGN 100 UNIT/ML SUBCUTANEOUS SOLUTION PEN-INJECTOR": [
+    "E10.9",
+    "E11.9",
+    "E13.9"
+  ],
+  "TRULANCE 3 MG ORAL TABLET": [
+    "K58.1",
+    "K59.04"
+  ],
+  "VELPHORO 500MG CHEW": [
+    "E83.52",
+    "N18.6",
+    "N18.5"
+  ],
+  "LYBALVI 20-10 MG ORAL TABLET": [
+    "F20.9",
+    "F31.13",
+    "F31.14",
+    "F31.9"
+  ],
+  "MIRABEGRON ER 25 MG ORAL TABLET EXTENDED RELEASE 24 HOUR": [
+    "N32.81",
+    "N31.9",
+    "R32"
+  ],
+  "NOVOLOG FLEXPEN 100U/ML INJ": [
+    "E10.9",
+    "E11.9",
+    "E13.9"
+  ],
+  "TESTOSTERONE CYPIONATE 200 MG/ML INTRAMUSCULAR SOLUTION": [
+    "E29.1",
+    "E29.9"
+  ],
+  "TRETINOIN 0.05% CREAM": [
+    "L70.0",
+    "L71.0",
+    "L71.9"
+  ],
+  "ADMELOG SOLOSTAR 100UNIT/ML INJECTION": [
+    "E10.9",
+    "E11.9",
+    "E13.9"
+  ],
+  "ANNOVERA 0.013-0.15MG/24HR RING": [
+    "Z30.015",
+    "Z30.44"
+  ],
+  "FLUTICASONE PROPIONATE HFA 110 MCG/ACT INHALATION AEROSOL": [
+    "J45.30",
+    "J45.40",
+    "J45.50",
+    "J45.909"
+  ],
+  "INSULIN DEGLUDEC FLEXTOUCH 200 UNIT/ML SUBCUTANEOUS SOLUTION PEN-INJECTOR": [
+    "E10.9",
+    "E11.9",
+    "E13.9"
+  ],
+  "IYUZEH 0.005% SOL": [
+    "H40.11",
+    "H40.12",
+    "H40.13",
+    "H40.811",
+    "H40.812",
+    "H40.813"
+  ],
+  "LEVEMIR FLEXPEN 100 UNIT/ML SUBCUTANEOUS SOLUTION PEN-INJECTOR": [
+    "E10.9",
+    "E11.9",
+    "E13.9"
+  ],
+  "LYBALVI 10-10 MG ORAL TABLET": [
+    "F20.9",
+    "F31.13",
+    "F31.14",
+    "F31.9",
+    "F32.9",
+    "F33.9"
+  ],
+  "NexIUM DR 40MG CER": [
+    "K21.9",
+    "K25.9",
+    "K26.9",
+    "K27.9",
+    "K29.70",
+    "K29.71",
+    "K31.9"
+  ],
+  "OMEPRAZOLE 40 MG ORAL CAPSULE DELAYED RELEASE": [
+    "K21.9",
+    "K25.9",
+    "K26.9",
+    "K27.9",
+    "K29.70",
+    "K29.71",
+    "K31.9"
+  ],
+  "SOTYKTU 6 MG ORAL TABLET": [
+    "L40.0",
+    "L40.8",
+    "L40.9"
+  ],
+  "VEMLIDY 25 MG ORAL TABLET": [
+    "B18.1",
+    "B18.2",
+    "B18.9"
+  ],
+  "CYCLOBENZAPRINE HCL 5 MG ORAL TABLET": [
+    "M62.830",
+    "M62.831",
+    "M62.832",
+    "M62.833",
+    "M62.834",
+    "M62.835",
+    "M62.836",
+    "M62.837",
+    "M62.838",
+    "M62.839",
+    "M62.9"
+  ],
+  "ESTRING 2MG RING": [
+    "N95.2",
+    "N95.1",
+    "Z79.890"
+  ],
+  "ESZOPICLONE 3 MG ORAL TABLET": [
+    "G47.00",
+    "G47.01",
+    "G47.09",
+    "F51.01"
+  ],
+  "MODAFINIL 100 MG ORAL TABLET": [
+    "G47.33",
+    "G47.411",
+    "G47.419",
+    "G47.26"
+  ],
+  "NAPROXEN-ESOMEPRAZOLE 500-20MG TABLET": [
+    "M15.0",
+    "M06.9",
+    "M45.9"
+  ],
+  "PRALUENT 150mg/1ml INJ": [
+    "E78.0",
+    "E78.01",
+    "I25.10"
+  ],
+  "QSYMIA 7.5-46MG EXT-RELEASE CAPSULE": [
+    "E66.01",
+    "E66.812",
+    "E66.89",
+    "E66.9"
+  ],
+  "QUVIVIQ 25 MG ORAL TABLET": [
+    "G47.00",
+    "G47.01",
+    "G47.09",
+    "F51.01"
+  ],
+  "URSODIOL 400MG CAP": [
+    "K80.20",
+    "K74.3",
+    "K83.0",
+    "Z79.899"
+  ],
+  "ACYCLOVIR 5% OINTMENT": [
+    "B00.0",
+    "B00.1",
+    "B00.9",
+    "B02.9"
+  ],
+  "AMPHETAMINE-DEXTROAMPHETAMINE 10 MG ORAL TABLET": [
+    "F90.0",
+    "F90.1",
+    "F90.2"
+  ],
+  "AUSTEDO XR (deutetrabenazine) 30MG ER tablets": [
+    "G24.01",
+    "G10"
+  ],
+  "DEXLANSOPRAZOLE 60MG CAP": [
+    "K21.0",
+    "K21.9",
+    "K25.9",
+    "K26.9"
+  ],
+  "NaN": []
+}
