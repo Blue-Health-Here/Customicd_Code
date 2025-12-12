@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+  }
+  
+  .logo {
+    height: 140px;
+    margin-bottom: 30px;
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    width: 600px;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  
+  .progress-bar {
+    width: 100%;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    padding: 8px 0;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 30px 0 25px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  .placeholders {
+    font-size: 12px;
+    color: #999;
+    margin: 0 0 18px 0;
+  }
+  
+  .icd10-button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .icd10-btn {
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .icd10-btn:hover {
+    background-color: #e2e2e2;
+  }
+  
+  button[type="submit"] {
+    background-color: #28c745;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #22b13d;
+  }
+  
