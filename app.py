@@ -1,61 +1,44 @@
 
-# from flask import Flask, render_template, request, jsonify
-# import json
-
-# app = Flask(__name__)
-
-# with open("medication_icd10.json") as f:
-#     med_to_icd = json.load(f)
-
-# @app.route("/")
-# def form():
-#     return render_template("form.html")
-
-# @app.route("/get_icd10_codes")
-# def get_icd10_codes():
-#     medication = request.args.get("medication", "").lower()
-#     matches = [codes for med, codes in med_to_icd.items() if medication in med.lower()]
-#     icd10_codes = sorted(set(code for sublist in matches for code in sublist))
-#     return jsonify(icd10_codes)
-
-# @app.route("/submit", methods=["POST"])
-# def submit_form():
-#     form_data = {
-#         "from": request.form.get("from"),
-#         "key": request.form.get("key"),
-#         "rejection_claim": request.form.get("rejection_claim"),
-#         "medication": request.form.get("medication"),
-#         "icd_code": request.form.get("icd_code")
-#     }
-
-#     print("📥 Received Form Submission:")
-#     print(form_data)
-
-#     return f"<h3>Form Submitted Successfully!</h3><pre>{form_data}</pre>"
-
-# if __name__ == "__main__":
-#     app.run(debug=True, host='0.0.0.0', port=5050)
-
-
-
-
-
-
-
 ######################## with description suggestion ##################################################################################
 
 
 from flask import Flask, render_template, request, jsonify
 import json
+import csv
+from pathlib import Path
+
 
 app = Flask(__name__)
 
 with open("medication_dict_icd_description.json", encoding="utf-8") as f:
     med_to_icd = json.load(f)
 
+
+
+# Load ICD-10 CSV ("icd_code_formated.csv")
+ICD10_ROWS = []
+ICD10_PATH = Path("icd10_diagnosis_codes_formatted.csv")
+
+def _normalize_icd_code(code):
+    return "".join(c for c in code.upper() if c.isalnum())
+
+if ICD10_PATH.exists():
+    with ICD10_PATH.open(newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        # Accept flexible column names
+        code_col = next((h for h in reader.fieldnames if "code" in h.lower()), "Formatted ICD-10 Code")
+        dx_col   = next((h for h in reader.fieldnames if "diagnosis" in h.lower()), "Diagnosis")
+        for row in reader:
+            code = (row.get(code_col) or "").strip()
+            dx   = (row.get(dx_col) or "").strip()
+            if code and dx:
+                ICD10_ROWS.append({"code": code, "diagnosis": dx})
+
+
+
 @app.route("/")
 def form():
-    return render_template("form.html")
+    return "I am flaying!!!!!!!!!"
 
 @app.route("/get_icd10_codes")
 def get_icd10_codes():
@@ -88,6 +71,55 @@ def get_icd10_codes():
     results.sort(key=lambda x: x["code"])
     return jsonify(results)
 
+
+##############  logic for custom ICD code and Dignosis ##########
+
+
+
+
+@app.route("/icd_suggest")
+def icd_suggest():
+    q = (request.args.get("diagnosis") or "").strip()
+    try:
+        limit = int(request.args.get("limit", 30))
+    except ValueError:
+        limit = 30
+
+    norm_q = _normalize_icd_code(q)
+    q_lower = q.lower()
+
+    exact_match = []
+    other_matches = []
+    seen_codes = set()
+
+    for row in ICD10_ROWS:
+        code = row.get("code", "")
+        dx = row.get("diagnosis", "")
+        norm_code = _normalize_icd_code(code)
+
+        # Match either code startswith or diagnosis contains
+        match_code = norm_q and norm_code.startswith(norm_q)
+        match_dx = q_lower and q_lower in dx.lower()
+
+        if match_code or match_dx:
+            result = {"code": code, "diagnosis": dx}
+
+            # Prioritize exact code match
+            if norm_q == norm_code and code not in seen_codes:
+                exact_match.append(result)
+                seen_codes.add(code)
+            elif code not in seen_codes:
+                other_matches.append(result)
+                seen_codes.add(code)
+
+        if len(exact_match) + len(other_matches) >= limit:
+            break
+
+    out = exact_match + other_matches
+    return jsonify(out[:limit])
+
+
+
 @app.route("/submit", methods=["POST"])
 def submit_form():
     form_data = {
@@ -105,112 +137,6 @@ def submit_form():
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=5050)
 
-
-
-
-
-
-
-# import os
-# import time
-# import pandas as pd
-# import google.generativeai as genai
-
-# # Set your Gemini API key
-# GEMINI_API_KEY = 'AIzaSyDJmR-IkWoIPbZ1cPpfLa3RfUp-M76HpEA'
-# if not GEMINI_API_KEY:
-#     raise EnvironmentError("Please set the GEMINI_API_KEY environment variable.")
-
-# # Configure Gemini
-# genai.configure(api_key=GEMINI_API_KEY)
-
-# SYSTEM_INSTRUCTION = (
-#     "You are a medical coding assistant. "
-#     "Given an ICD-10 code, respond with exactly one short sentence: "
-#     "'<ICD-10 code> stands for <diagnosis name>.' "
-#     "Do not add any other information or explanations."
-# )
-
-# USER_PROMPT_TEMPLATE = "ICD-10 code: {icd}\nMedication (context only): {med}"
-
-
-# def init_model():
-#     return genai.GenerativeModel(
-#         model_name="gemini-1.5-pro",
-#         system_instruction=SYSTEM_INSTRUCTION
-#     )
-
-# def call_gemini(model, icd, med, max_retries=5, backoff=1.5):
-#     prompt = USER_PROMPT_TEMPLATE.format(icd=icd.strip(), med=med.strip())
-#     for attempt in range(1, max_retries + 1):
-#         try:
-#             resp = model.generate_content(prompt)
-#             text = (resp.text or "").strip()
-#             if text:
-#                 return text
-#             raise ValueError("Empty response text")
-#         except Exception as e:
-#             if attempt == max_retries:
-#                 return f"[Generation failed after {max_retries} attempts: {e}]"
-#             time.sleep(backoff ** (attempt - 1))
-
-# def main():
-#     input_csv = "Medication___ICD-10__Complete_.csv"
-#     output_csv = "Medication___ICD-10__Complete_description.csv"
-
-#     df = pd.read_csv(input_csv)
-#     if "Medication" not in df.columns or "ICD-10 Code" not in df.columns:
-#         raise ValueError("CSV must have columns: 'Medication' and 'ICD-10 Code'")
-
-#     model = init_model()
-#     cache = {}
-#     descriptions = []
-
-#     for _, row in df.iterrows():
-#         med = str(row["Medication"]) if pd.notna(row["Medication"]) else ""
-#         icd = str(row["ICD-10 Code"]) if pd.notna(row["ICD-10 Code"]) else ""
-#         if not icd.strip():
-#             descriptions.append("[No ICD code provided]")
-#             continue
-
-#         if icd not in cache:
-#             cache[icd] = call_gemini(model, icd, med)
-#             print(f'done for: {icd}')
-#             time.sleep(0.2)  # adjust if needed
-
-#         descriptions.append(cache[icd])
-
-#     df["ICD description"] = descriptions
-#     df.to_csv(output_csv, index=False)
-#     print(f"✅ Done. Saved to {output_csv}")
-
-# if __name__ == "__main__":
-#     main()
-
-
-
-# import csv
-# import json
-
-# # CSV file ka path yahan den
-# csv_file = "Medication___ICD-10__Complete_description.csv"
-
-# # Medication-based dictionary banane ke liye empty dict
-# med_dict = {}
-
-# with open(csv_file, mode='r', encoding='utf-8-sig') as file:
-#     reader = csv.DictReader(file)
-#     for row in reader:
-#         med = row['Medication'].strip()
-#         if med not in med_dict:
-#             med_dict[med] = []
-#         med_dict[med].append({
-#             "ICD_10_Code": row['ICD-10 Code'].strip(),
-#             "ICD_Description": row['ICD description'].strip()
-#         })
-
-# # JSON format me pretty print
-# print(json.dumps(med_dict, indent=4, ensure_ascii=False))
 
 # # Agar file me save karna ho
 # with open("medication_dict_icd_description.json", "w", encoding="utf-8") as json_file:
